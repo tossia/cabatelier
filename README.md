@@ -11,4 +11,4 @@ Cabatelier application allows you :
 The load data from Excel file was realisated by using PHPSpreadsheet plugin (https://phpspreadsheet.readthedocs.io/en/latest/topics/reading-files/)
 The PDF file creation is implemented using fpdf library (http://www.fpdf.org/) 
 
-NB 3rd party libraries not included
+NB 3rd party libraries are not included
