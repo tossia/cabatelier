@@ -1,0 +1,104 @@
+/* Extra small devices (portrait phones, less than 576px)
+// Small devices (landscape phones, 576px and up*/
+
+@media (max-width: 767.98px) {
+    #bienvenue {
+        display: none;
+    }
+    #logout {
+        display: inline-block;
+        text-align: right !important;
+    }
+    body {
+        font-size: 2vw !important;
+        /* 2% of viewport width */
+        padding: 0 !important;
+    }
+    h1 {
+        font-size: 5vw !important;
+        /* 5% of viewport width */
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.3vw;
+        /* 1.3% of viewport width */
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+header {
+    margin-top: 80px;
+}
+
+#table_id a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#table_id a:hover {
+    color: black;
+}
+
+html,
+body {
+    padding: 0 15px;
+    height: 100% !important;
+}
+
+.wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100% !important;
+}
+
+.contente {
+    flex: 1 0 auto;
+}
+
+.equipe a {
+    color: blue !important;
+    font-weight: normal !important;
+}
+
+.equipe a:hover {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+img {
+    position: relative;
+    height: 100%;
+}
+
+#navbarheight {
+    height: 80px;
+}
+
+tfoot input {
+    width: 100% !important;
+    padding: 2px !important;
+    box-sizing: border-box !important;
+}
+
+.footer {
+    flex: 0 0 auto !important;
+}
+
+.dt-buttons {
+    margin-left: 20px;
+}
